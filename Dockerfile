@@ -1,4 +1,4 @@
-AFROM consol/ubuntu-xfce-vnc
+FROM consol/ubuntu-xfce-vnc
 USER root
 RUN apt-get update && apt-get install -y \
     python3-pip \
